@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tactics_css.css"
+</head>
+<body>
+    <div 
+    class="plashka"> 
+    </div> <!-- Плашка менюшке-->
+<div class ='logo'> <!-- Лого в менюшке-->
+    <img 
+    src ='logo_stone.png'
+    alt=""
+    width="100"
+    height="100"
+    >
+</div>
+
+
+    <div class="menu"> <!-- Менюшка-->
+        <a href="main_page.html" target="_self"> <button> Главная </button></a>
+        <a href="rulse.html" target ="_self"> <button> Правила </button></a>
+        <a href="history.html" target="_self"> <button> История </button></a>
+        <a href="#" target="_self"> <button> Обратная связь </button></a>
+        <a href="#niz" target="_self"> <button> Контакты </button></a>
+    </div>
+  
+    <form action="https://www.bing.com/search" id="feedbackForm" class="form">
+        <label><input type="hidden"  name="q" value="search"></label>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <br> 
+        <br> 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <br> 
+        <br> 
+        <label for="level"> Ваш уровень игры: </label>
+        <input type="number" id="level" name="level" min="0" max="10" required>
+        <br> 
+        <br> 
+        <label for="message">Ваш вопрос:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br> 
+        <button type="submit">Отправить</button>
+    </form>
+       
+
+
+
+
+    <footer class="footer" id="niz">
+        <a href="https://t.me/Syh0gilie" target="_blank"><img src="Telegram_Messenger.png" alt="TG_logo" class="tg_logo"> </a>
+        <h2>Мы в телеграм!</h2> 
+    </footer>
+
+    
+</body>
+</html>
