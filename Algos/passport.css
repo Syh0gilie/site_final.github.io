@@ -1,0 +1,37 @@
+.place { 
+    margin-top: -680px;
+    margin-left: 150px;
+}
+
+.date {
+    margin-left: 120px;
+    margin-top: 65px;
+}
+.code {
+    margin-left: 120px;
+    margin-top: 65px;
+}
+.surname {
+    margin-top: 235px;
+    margin-left: 220px;
+}
+.name {
+    margin-top: 35px;
+    margin-left: 220px;
+}
+.otchestvo {
+    margin-left: 220px;
+    margin-top: -8px;
+}
+.birth {
+    margin-left: 300px;
+    margin-top: -5px;
+}
+.pb {
+    margin-left: 220px;
+    margin-top: -10px;
+}
+.ima {
+    font-size: 40px;
+}
+
